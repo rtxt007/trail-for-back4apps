@@ -3,7 +3,8 @@ import numpy as np
 import time
 import os
 import errno
-
+import os
+os.environ['DISPLAY'] = ':0'
 import torch
 from torch.nn import functional as F
 from torch.autograd import Variable as V
