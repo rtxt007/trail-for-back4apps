@@ -17,3 +17,4 @@ torchvision
 tornado
 wincertstore
 opencv-python
+python-xlib
