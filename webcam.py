@@ -20,7 +20,10 @@ from imutils.video import VideoStream, FileVideoStream, WebcamVideoStream, FPS
 import argparse
 import pyautogui
 import configparser
-
+from Xlib.display import Display
+from Xlib import X
+disp = Display()
+root = disp.screen().root
 qsize = 20  # size of queue to retain for 3D conv input
 sqsize = 10 # size of queue for prediction stabilisation
 num_classes = 15
