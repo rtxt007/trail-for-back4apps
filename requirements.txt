@@ -16,3 +16,4 @@ scikit-learn
 torchvision
 tornado
 wincertstore
+opencv-python
