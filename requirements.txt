@@ -20,3 +20,4 @@ opencv-python
 python-xlib
 opencv-python-headless
 mouseinfo
+socket
