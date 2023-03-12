@@ -3,7 +3,7 @@ import numpy as np
 import time
 import os
 import errno
-
+import mouseinfo
 import torch
 from torch.nn import functional as F
 from torch.autograd import Variable as V
