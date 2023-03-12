@@ -18,3 +18,4 @@ tornado
 wincertstore
 opencv-python
 python-xlib
+opencv-python-headless
