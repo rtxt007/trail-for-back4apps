@@ -22,11 +22,7 @@ import configparser
 import socket
 import os
 
-# Get the IP address of the machine
-ip_address = socket.gethostbyname(socket.gethostname())
 
-# Set the DISPLAY variable
-os.environ['DISPLAY'] = f"{ip_address}:0"
 qsize = 20  # size of queue to retain for 3D conv input
 sqsize = 10 # size of queue for prediction stabilisation
 num_classes = 15
