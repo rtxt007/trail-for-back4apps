@@ -4,9 +4,6 @@ configparser
 defusedxml
 imutils
 matplotlib
-mkl-fft
-mkl-random
-mkl-service
 olefile
 pandas
 pip-chill
